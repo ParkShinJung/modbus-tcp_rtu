@@ -1,0 +1,23 @@
+slave_id: 1
+port: 1502
+sensors:
+  - name: Sensor 1 Value
+    address: 0
+    type: float
+    registers: 2
+    comment: Little Endian (하위 워드 우선)
+  - name: Sensor 1 Error Code
+    address: 2
+    type: dint
+    registers: 2
+    comment: Little Endian (하위 워드 우선)
+  - name: Sensor 2 Value
+    address: 4
+    type: float
+    registers: 2
+    comment: Little Endian (하위 워드 우선)
+  - name: Sensor 2 Error Code
+    address: 6
+    type: dint
+    registers: 2
+    comment: Little Endian (하위 워드 우선)
