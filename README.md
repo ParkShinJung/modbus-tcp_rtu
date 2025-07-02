@@ -57,4 +57,12 @@ sensors:
 4. 값이 정상적으로 표시되는지 확인
 
 ---
-문의: shinjung 
+## 실행 방법
+```ssh
+source venv/bin/activate
+
+python modbus_slave.py 
+        or 
+python modbus_slave_rtu.py
+
+```
